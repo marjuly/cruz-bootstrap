@@ -5,21 +5,22 @@ h1{
   display: block-left;
 }
 .col-lg-8{
-  height: 500px;
-  background-color: blue;
+  height: 700px;
 }
+.col-lg-4{
+  height: 70px;
+}
+
 .card{
   height: 250px;
 }
 #disp{
   height: 400px;
 }
-#sp1{
-  margin-right: 0px;
+
+.sp1, .sp2, #sp3, #sp4{
+  width: 290px;
 }
-#sp2{
-  margin-left: 0px;
-}
-#sp1, #sp2{
-  height: 1000px;
+#worms{
+
 }
