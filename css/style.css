@@ -4,23 +4,34 @@ h2{
 h1{
   display: block-left;
 }
+.jumbotron{
+  background-color: #fff637;
+}
+.btn{
+  background-color: #4ef4ff;
+  border: 1px #4ef4ff;
+}
 .col-lg-8{
   height: 700px;
 }
 .col-lg-4{
   height: 70px;
 }
-
 .card{
   height: 250px;
 }
-#disp{
-  height: 400px;
+.card:hover{
+  filter: drop-shadow(0px 0px 10px #ff2e2e);
 }
-
+.card:active{
+  filter: brightness(120%);
+}
 .sp1, .sp2, #sp3, #sp4{
   width: 290px;
 }
 #worms{
-
+  height: 170px;
+}
+#disp{
+  height: 400px;
 }
