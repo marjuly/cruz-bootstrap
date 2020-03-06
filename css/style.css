@@ -4,6 +4,9 @@ h2{
 h1{
   display: block-left;
 }
+.navbar-brand{
+  font-family: 'Bowlby One SC', cursive;
+}
 .jumbotron{
   background-color: #fff637;
 }
